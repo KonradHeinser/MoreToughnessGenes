@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="GeneToughnessBase">
+        <defName>SlightlyDelicate</defName>
+        <label>slightly delicate</label>
+        <description>Carriers of this gene take greater injuries than others from the same damage. They have thin, brittle bones and less binding molecules in joints and flesh.</description>
+        <iconPath>UI/Icons/Genes/Gene_Delicate</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <statFactors>
+            <IncomingDamageFactor>1.10</IncomingDamageFactor>
+        </statFactors>
+        <biostatMet>2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>frail</symbol></li>
+                <li><symbol>thin</symbol></li>
+                <li><symbol>deli</symbol></li>
+                <li><symbol>snap</symbol></li>
+                <li><symbol>ail</symbol></li>
+                <li><symbol>feeb</symbol></li>
+                <li><symbol>fragi</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToughnessBase">
+        <defName>MarginallyDelicate</defName>
+        <label>marginally delicate</label>
+        <description>Carriers of this gene take greater injuries than others from the same damage. They have thin, brittle bones and less binding molecules in joints and flesh.</description>
+        <iconPath>UI/Icons/Genes/Gene_Delicate</iconPath>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <statFactors>
+            <IncomingDamageFactor>1.05</IncomingDamageFactor>
+        </statFactors>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>frail</symbol></li>
+                <li><symbol>thin</symbol></li>
+                <li><symbol>deli</symbol></li>
+                <li><symbol>snap</symbol></li>
+                <li><symbol>ail</symbol></li>
+                <li><symbol>feeb</symbol></li>
+                <li><symbol>fragi</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToughnessBase">
+        <defName>SlightlyRobust</defName>
+        <label>slightly robust</label>
+        <description>Carriers of this gene take less injuries than others from the same damage. They have thickened, densified bones, nearly-solid ribcages, and strengthened binding factors in joints and flesh.</description>
+        <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+        <displayOrderInCategory>9</displayOrderInCategory>
+        <statFactors>
+            <IncomingDamageFactor>0.83</IncomingDamageFactor>
+        </statFactors>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>tough</symbol></li>
+                <li><symbol>stout</symbol></li>
+                <li><symbol>rough</symbol></li>
+                <li><symbol>lump</symbol></li>
+                <li><symbol>bruise</symbol></li>
+                <li><symbol>stiff</symbol></li>
+                <li><symbol>hard</symbol></li>
+                <li><symbol>vigo</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToughnessBase">
+        <defName>VeryRobust</defName>
+        <label>very robust</label>
+        <description>Carriers of this gene take less injuries than others from the same damage. They have thickened, densified bones, nearly-solid ribcages, and strengthened binding factors in joints and flesh.</description>
+        <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <statFactors>
+            <IncomingDamageFactor>0.63</IncomingDamageFactor>
+        </statFactors>
+        <biostatMet>-3</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>tough</symbol></li>
+                <li><symbol>stout</symbol></li>
+                <li><symbol>rough</symbol></li>
+                <li><symbol>lump</symbol></li>
+                <li><symbol>bruise</symbol></li>
+                <li><symbol>stiff</symbol></li>
+                <li><symbol>hard</symbol></li>
+                <li><symbol>vigo</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneToughnessBase">
+        <defName>SuperRobust</defName>
+        <label>super robust</label>
+        <description>Carriers of this gene take less injuries than others from the same damage. They have thickened, densified bones, nearly-solid ribcages, and strengthened binding factors in joints and flesh.</description>
+        <iconPath>UI/Icons/Genes/Gene_Tough</iconPath>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <statFactors>
+            <IncomingDamageFactor>0.50</IncomingDamageFactor>
+        </statFactors>
+        <biostatMet>-4</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>tough</symbol></li>
+                <li><symbol>stout</symbol></li>
+                <li><symbol>rough</symbol></li>
+                <li><symbol>lump</symbol></li>
+                <li><symbol>bruise</symbol></li>
+                <li><symbol>stiff</symbol></li>
+                <li><symbol>hard</symbol></li>
+                <li><symbol>vigo</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
