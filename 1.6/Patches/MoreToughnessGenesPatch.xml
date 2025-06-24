@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/GeneDef[defName="Delicate"]/forcedTraits</xpath>
-        <value>
-            <statFactors>
-                <IncomingDamageFactor>1.15</IncomingDamageFactor>
-            </statFactors>
-        </value>
+    <Operation Class="PatchOperation Conditional">
+        <xpath>Defs/GeneDef[defName="Delicate"]/forcedTraits</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="Delicate"]/forcedTraits</xpath>
+            <value>
+                <statFactors>
+                    <IncomingDamageFactor>1.15</IncomingDamageFactor>
+                </statFactors>
+            </value>
+        </match>
     </Operation>
 </Patch>
